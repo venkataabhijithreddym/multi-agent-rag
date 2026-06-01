@@ -231,4 +231,29 @@ multi-agent-rag/
 
 **JWT Auth** — Stateless HS256 tokens. Login creates a token with `{"sub": username, "exp": now+60min}` signed with `JWT_SECRET_KEY`. Every protected endpoint verifies the signature on each request — no server-side session storage.
 
-**Embeddings** — `multi-qa-MiniLM-L6-cos-v1` (sentence-transformers, 80MB, runs locally). Chosen over OpenAI embeddings because it is trained on Q&A retrieval datasets (MS MARCO, Natural Questions) — optimal for FAQ retrieval, zero API cost.
+**Embeddings** — `multi-qa-MiniLM-L6-cos-v1` (sentence-transformers, 80MB, runs locally). Chosen over OpenAI embeddings because it is trained on Q&A retrieval datasets (MS MARCO, Natural Questions) — optimal for FAQ retrieval, zero API cost.\
+
+
+---
+
+## Screenshots
+
+### 💬 Chat — Multi-Agent RAG in action
+> Questions asked:
+> - *"What is the BigRock Affiliate Program and how do I join it?"*
+> - *"Can I transfer my domain to BigRock and how long does it take?"*
+> - *"Why do I need a professional email for my business?"*
+
+![Chat Screenshot](screenshots/chat.png)
+
+---
+
+### 🌤️ Weather — Live weather for Indian cities
+
+![Weather Screenshot](screenshots/weather.png)
+
+---
+
+### ✅ Todos — Per-user task management
+
+![Todos Screenshot](screenshots/todos.png)
