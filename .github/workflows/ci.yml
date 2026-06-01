@@ -16,6 +16,8 @@ jobs:
 
     env:
       PYTHONPATH: ${{ github.workspace }}
+      OPENAI_API_KEY: test_api_key
+      JWT_SECRET_KEY: test_jwt_secret
 
     steps:
       - name: Checkout repository
