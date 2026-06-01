@@ -1,0 +1,46 @@
+
+# Secrets — NEVER commit these
+.env
+*.env.local
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# SQLite databases (auto-created on startup)
+*.db
+*.sqlite3
+
+# ChromaDB (auto-built on first startup via ingest_faqs)
+chroma_db/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Lock files (use requirements.txt)
+requirements.lock

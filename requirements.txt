@@ -1,0 +1,53 @@
+fastapi
+uvicorn[standard]
+python-multipart
+email-validator
+
+# LangChain / LangGraph
+langchain
+langchain-openai
+langchain-community
+langgraph
+
+# Vector DB
+chromadb
+
+# OpenAI
+openai
+
+# Local embeddings (no API key required)
+sentence-transformers
+
+# MCP
+fastmcp
+
+# Auth
+python-jose[cryptography]
+bcrypt
+
+# Database (SQLite ORM)
+SQLAlchemy
+
+# Config
+pydantic-settings
+pydantic
+
+# Data
+openpyxl
+pandas
+
+# HTTP client
+httpx
+requests
+
+# Testing
+pytest
+pytest-asyncio
+
+# Dev
+python-dotenv
+
+# Streamlit UI
+streamlit
+
+
